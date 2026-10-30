@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LifeLoop mark: an open loop with a check, sized for the 66dp adaptive-icon safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- outer loop (300° arc) -->
+    <path android:fillColor="#00000000"
+        android:strokeColor="#FFFFFFFF" android:strokeWidth="7" android:strokeLineCap="round"
+        android:pathData="M72.6,40.5 A23,23 0 1,0 77,54" />
+    <!-- arrow head closing the loop -->
+    <path android:fillColor="#FFFFFFFF"
+        android:pathData="M66.5,37.5 L80.5,35.5 L77.5,49.5 Z" />
+    <!-- check mark -->
+    <path android:fillColor="#00000000"
+        android:strokeColor="#FFFFFFFF" android:strokeWidth="6.5" android:strokeLineCap="round" android:strokeLineJoin="round"
+        android:pathData="M43,55 L51,63 L65,47" />
+</vector>

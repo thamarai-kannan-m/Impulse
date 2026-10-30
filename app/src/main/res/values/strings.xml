@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LifeLoop</string>
+    <string name="tagline">Everything in life, right on time.</string>
+    <string name="shortcut_add_item">Add item</string>
+    <string name="shortcut_add_item_long">Add a grocery or household item</string>
+    <string name="shortcut_add_task">Add task</string>
+    <string name="shortcut_add_task_long">Add a chore or task</string>
+    <string name="shortcut_shopping">Shopping list</string>
+    <string name="shortcut_shopping_long">Open the shopping list</string>
+</resources>

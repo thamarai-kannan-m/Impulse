@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android Auto Backup (API < 31): keep the LifeLoop database and settings. -->
+<full-backup-content>
+    <include domain="database" path="lifeloop.db" />
+    <include domain="file" path="datastore/lifeloop_settings.preferences_pb" />
+</full-backup-content>

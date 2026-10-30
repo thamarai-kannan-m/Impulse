@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:shortcutId="add_item" android:enabled="true"
+        android:icon="@drawable/ic_shortcut_add"
+        android:shortcutShortLabel="@string/shortcut_add_item"
+        android:shortcutLongLabel="@string/shortcut_add_item_long">
+        <intent android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.impulse"
+            android:targetClass="com.example.impulse.MainActivity"
+            android:data="lifeloop://add_item" />
+    </shortcut>
+    <shortcut android:shortcutId="add_task" android:enabled="true"
+        android:icon="@drawable/ic_shortcut_add"
+        android:shortcutShortLabel="@string/shortcut_add_task"
+        android:shortcutLongLabel="@string/shortcut_add_task_long">
+        <intent android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.impulse"
+            android:targetClass="com.example.impulse.MainActivity"
+            android:data="lifeloop://add_task" />
+    </shortcut>
+    <shortcut android:shortcutId="shopping" android:enabled="true"
+        android:icon="@drawable/ic_shortcut_cart"
+        android:shortcutShortLabel="@string/shortcut_shopping"
+        android:shortcutLongLabel="@string/shortcut_shopping_long">
+        <intent android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.impulse"
+            android:targetClass="com.example.impulse.MainActivity"
+            android:data="lifeloop://shopping" />
+    </shortcut>
+</shortcuts>
